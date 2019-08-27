@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifrado Cesar</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon">
 </head>
 
 <body>
@@ -16,8 +16,7 @@
     <section id="content-cipher" class="content">
         <!--CABECERA-->
         <header class="content-header">
-            <h1>Cifrado Cesar</h1>
-            <p><i>Codifica y Decodifica tus mensajes</i></p>
+            <p><i>Codificador y Descodificador de mensajes</i></p>
         </header>
 
         <!--ENLACES CODIFICADO Y DECODIFICADO-->
@@ -31,12 +30,12 @@
 
         <div id="content-msg-encode" class="msg-style display_block">
             <p>Ingrese Su Mensaje:</p>
-            <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <textarea id="box-msg-encode" class="box-msg-style" placeholder="Texto"></textarea>
             <div class="content-offset">
-                <label class="label">Ingrese N° de desplazamiento</label>
+                <label class="label">Ingrese clave</label>
                 <input type="number" id="n_offset_e" class="n_offset_style">
             </div>
-            <button id="btn_encode" class="btn-code">Codifica tu Mensaje</button>
+            <button id="btn_encode" class="btn-code">Codificar</button>
             <div id="msg-encode" class="msg-ckeck">
                 <p id="msg-encode-check"></p>
             </div>
@@ -47,12 +46,12 @@
 
         <div id="content-msg-decode" class="msg-style display_none">
             <p>Ingrese Su Mensaje:</p>
-            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Texto"></textarea>
             <div class="content-offset">
-                <label class="label">Ingrese N° de desplazamiento</label>
+                <label class="label">Ingrese clave</label>
                 <input type="number" id="n_offset_d" class="n_offset_style">
             </div>
-            <button id="btn_decode" class="btn-code">Decodifica tu Mensaje</button>
+            <button id="btn_decode" class="btn-code">Descodificar</button>
             <div id="msg-decode" class="msg-ckeck">
                 <p id="msg-decode-check"></p>
             </div>

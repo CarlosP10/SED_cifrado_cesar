@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("img_fondo1.jpg");
+    background-color: #333;
 }
 
 .content-header h1 {
@@ -25,7 +25,7 @@ body {
     width: 50%;
     border-radius: 10px;
     padding: 20px;
-    border: 1px solid #008F99;
+    border: 1px solid  #333;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -70,15 +70,15 @@ body {
 }
 
 .link-code a:hover {
-    border-bottom: 2px solid #008F99;
-    color: #008F99;
+    border-bottom: 2px solid #FFC107;
+    color:  #333;
     padding-bottom: 5px;
     transition: 0.3s;
 }
 
 .link_active {
-    border-bottom: 2px solid #008F99;
-    color: #008F99 !important;
+    border-bottom: 2px solid  #333;
+    color:  #333 !important;
     padding-bottom: 5px;
 }
 
@@ -104,7 +104,7 @@ body {
     border: 0px;
     width: 170px;
     height: 50px;
-    background-color: #008F99;
+    background-color:  #333;
     border-radius: 5px;
     margin-top: 10px;
     color: #fff;
@@ -126,7 +126,7 @@ body {
     border: 0px;
     width: 170px;
     height: 50px;
-    background-color: #008F99;
+    background-color: #FFC107;
     border-radius: 5px;
     margin-top: 15px;
     color: #fff;
